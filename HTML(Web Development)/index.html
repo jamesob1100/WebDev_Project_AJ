@@ -1,66 +1,56 @@
 <!DOCTYPE html>
-<html> 
-  <body> 
-   <details> 
-          <summary>Menu</summary>
-          <form action="/action_page.php" method="get">
-            <label for="Homepage"><a href="https://codepen.io/ainecarles/pen/YzmwRxZ?editors=1000">HomePage</a></label>
-            <label for="About"><a href="https://codepen.io/ainecarles/pen/KKOVyNr">About</a></label>
-            <label for="Contact"><a href="https://codepen.io/ainecarles/pen/VwoerxW">Contact</a></label>
-    </details>
-
-  <header> 
-    <h1>Anime Haven</h1>
-  </header>
-  
-  <h3> Welcome to Anime Haven, your go-to spot for all things anime! </h3>
-  
-  <div class=image1>
-    <figure>
-      <img src="https://cdn.pixabay.com/photo/2023/12/07/11/04/girl-8435329_1280.png"
-       width="400"
-       alt="Girl Falling From Sky"
-       usemap="#shapemap">
-          <figcaption><a href="https://codepen.io/ainecarles/pen/JjgGewb"> New Releases </a> </figcaption>
-    </figure>
-  
-    <map name="shapemap">
-      <area shape="rect" coords="34,44,270,350" href="https://codepen.io/ainecarles/pen/JjgGewb" alt="New Releases">
-   </map> 
-  </div>
-    
-  
-   <div class=image2>
-     <figure>
-      <img src="https://cdn.pixabay.com/photo/2023/12/07/11/11/girl-8435340_1280.png"
-       width="400"
-       alt="Girl Painting"
-       usemap="#shapemap">
-          <figcaption> <a href="https://codepen.io/ainecarles/pen/KKOVyNr">Popular Series</a></figcaption>
-     </figure>
-    
-    <map name="shapemap">
-      <area shape="rect" coords="34,44,270,350" href="https://codepen.io/ainecarles/pen/KKOVyNr" alt="Popular Series">
-   </map> 
-  </div>
-  
-   <div class=image3>
-     <figure>
-      <img src="https://cdn.pixabay.com/photo/2023/10/07/23/39/girl-8301168_1280.png"
-       width="400"
-       alt="Girl Sitting"
-       usemap="#shapemap">
-          <figcaption> <a href="https://codepen.io/ainecarles/pen/QWeyogV">Streaming Services</a></figcaption>
-       </figure>
-     
-      <map name="shapemap">
-        <area shape="rect" coords="34,44,270,350" href="https://codepen.io/ainecarles/pen/QWeyogV" alt="Streaming Services">
-      </map> 
-    </div>
-    
-    <footer>
-      <p> Developed by James and Áine </p>
-    </footer>
-  
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Haven</title>
+    <style>
+        body {
+            color: rgb(88, 5, 241);
+            background-color: black;
+            padding: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="C:\Users\James O'Brien\OneDrive - Newpark Comprehensive School\Desktop\CS\WEB DEV\assign_2\about.html">About</a>
+        <a href="C:\Users\James O'Brien\OneDrive - Newpark Comprehensive School\Desktop\CS\WEB DEV\assign_2\contact.html">Contact</a>
+    </nav>
+    <hr>
+    <main>
+        <h1>Anime Haven</h1>
+        <hr>
+        <div class="image1">
+            <h2>New Releases</h2>
+            <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Anime_girl_in_orange_shirt.svg/256px-Anime_girl_in_orange_shirt.svg.png?20200410184449" 
+                alt="shapes" 
+                usemap="#shapemap">
+            <map name="#shapemap">
+                 <area 
+                    shape="rect" 
+                    coords="256,401,0,0" 
+                    href="C:\Users\James O'Brien\OneDrive - Newpark Comprehensive School\Desktop\CS\WEB DEV\assign_2\new_release.html" 
+                    alt="New Releases Page">
+            </map>
+        </div>
+        <div class="image2">
+                <h2>Popular Series</h2>
+                    <img 
+                        width="400"
+                        src="https://cdn.pixabay.com/photo/2021/12/17/20/50/luffy-6877426_1280.png" 
+                        alt="shapes"
+                        usemap="#shapemap">
+                    <map name="#shapemap">
+                        <area 
+                            shape="rect" 
+                            coords="400,379,0,0"
+                            href="C:\Users\James O'Brien\OneDrive - Newpark Comprehensive School\Desktop\CS\WEB DEV\assign_2\pops.html"
+                            alt="Popular Series Page">
+                    </map>
+        </div>
+    </main>
+</body>
 </html>
