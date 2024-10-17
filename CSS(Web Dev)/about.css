@@ -1,0 +1,187 @@
+body
+{
+  background-color: black;
+}
+
+h1
+{
+ font-family: arial;
+ color: #e65df5; 
+ text-align: center;
+}
+
+/*Circle1 decoration*/
+.circle
+{
+  width:400px;
+  height:400px;
+  line-height:300px;
+  border-radius:50%;
+  background-color:#c959c9; 
+  transition: transform .5s; /* Animation */
+}
+
+/*heading*/
+.circle h2
+{
+ font-size: 28px;
+ transform: translate(48px, -70px);
+ font-family: arial;
+ color: #ff81ff;
+ text-decoration: underline;
+}
+ /* enlarge circle*/
+.circle:hover
+{
+  transform: scale(1.05);
+}
+
+/* description*/
+.paragraph
+{
+  line-height: 1;
+  transform: translate(20px, -180px);
+  color: black;  
+  font-family: arial;
+  font-size: 20px;
+  transition: transform 0.5s ease; /* Animation */
+}
+
+/*enlarge text*/
+.paragraph:hover
+{
+  transform: scale(1.05);
+}
+
+
+
+/*Second Circle*/
+.circle2
+{
+  width:400px;
+  height:400px;
+  line-height:300px;
+  border-radius:50%;
+  background-color:#c959c9; 
+  transition: transform .5s; /* Animation */
+  margin-top: -418px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+/*Enlarging circle*/
+.circle2:hover
+{
+  transform: scale(1.05);
+}
+
+/*positioning heading*/
+.circle2 h2
+{
+ font-size: 28px;
+ transform: translate(60px, -70px);
+ font-family: arial;
+ color: #ff81ff;
+ text-decoration: underline;
+}
+
+/*description*/
+.paragraph2
+{
+  color: black;
+  line-height:1;
+  transform: translate(20px, -180px);  
+  font-family: arial;
+  font-size: 20px;
+  transition: transform 0.5s ease; /* Animation */
+}
+
+/*enlarge description*/
+.paragraph2:hover
+{
+  transform: scale(1.05);
+}
+
+
+/*Positioning and shaping image*/
+img
+{
+  width:350px;
+  height:300px;
+  position: relative;
+  top:-360px;
+  left:1090px;
+}
+
+
+/* Menu Button Decoration */
+.Menu
+{
+  padding: 18px;
+  cursor: pointer;
+  background-color: #cd56da;
+  color: white;
+  border: none; 
+}
+
+/*Positioning menu button */
+.dropdown
+{
+  position: relative;
+  display: inline-block;
+  left: 15px;
+}
+
+/*Hiding dropdown links*/
+.DropdownContent 
+{
+  display: none;
+  position: absoloute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+  line-height: 2;
+}
+/*Decorating links*/
+.DropdownContent a 
+{
+  color: white; 
+  padding: 12px, 18px;
+  display: block;
+  text-decoration: none;
+  font-family: arial;
+}
+
+/* Decorating Dropdown Section */
+.DropdownContent a:hover
+{
+  color:white;
+  background-color:#e67ff1;
+  font-size: 18px;
+  text-decoration:underline;
+}
+
+/* Making menu change colour when hovered over*/
+.dropdownn Menu :hover 
+{
+  background-color: #940894;
+}
+
+/*Making links dropdown*/
+.dropdown:hover .DropdownContent
+{
+  display: block;
+  background-color: #9f979f;
+}
+
+.DropdownContent a:active
+{
+  color: purple;
+}
+
+footer
+{
+  color:purple;
+  font-family: arial;
+}
